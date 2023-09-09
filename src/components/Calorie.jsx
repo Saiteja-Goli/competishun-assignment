@@ -42,7 +42,6 @@ const handleOrderNow=()=>{
                             <h5>Calorie : {ele.recipe.calories} g</h5>
                             <p>FAT : {fatDigest.total} g</p>
                             <p>PROTIEN : {protienDigest.total} g</p>
-                            <button onClick={handleOrderNow}>OrderNow</button>
                         </div>
                     })
                 }
